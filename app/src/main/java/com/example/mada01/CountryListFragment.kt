@@ -41,6 +41,6 @@ class CountryListFragment : Fragment() {
             rec.adapter = adapter
         }
 
-        return view;
+        return view
     }
 }

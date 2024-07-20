@@ -10,6 +10,7 @@ import android.widget.TextView
 
 private const val COUNTRY = "COUNTRY"
 
+@Deprecated("Deprecated method used in implementation")
 class CountryDetailFragment : Fragment() {
     private var country: Country? = null
 
@@ -30,7 +31,7 @@ class CountryDetailFragment : Fragment() {
         view.findViewById<TextView>(R.id.countryDetailCapital).text = country?.capital
         view.findViewById<TextView>(R.id.countryDetailPopulation).text = country?.population.toString()
         view.findViewById<ImageView>(R.id.dtlFlagImage).setImageResource(country?.flagResourceId ?: 0)
-        return view;
+        return view
     }
 
     companion object {

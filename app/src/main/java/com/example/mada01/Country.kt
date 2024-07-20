@@ -10,8 +10,7 @@ class Country(val id: Int, val name: String, val flagResourceId: Int, val capita
         parcel.readInt(),
         parcel.readString() ?: "",
         parcel.readInt()
-    ) {
-    }
+    )
 
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
