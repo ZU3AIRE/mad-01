@@ -2,4 +2,6 @@
     <string name="app_name">MAD A01</string>
     <string name="press_me">Surprise Me</string>
     <string name="countries_catalogue">Countries Catalogue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
